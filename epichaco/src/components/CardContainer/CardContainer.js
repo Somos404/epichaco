@@ -8,7 +8,9 @@ const CardContainer = () => {
         "https://app.powerbi.com/view?r=eyJrIjoiOGQxYTM5NTUtYzc5YS00NzgzLThlNDItM2RjNWM4NDYwYzA0IiwidCI6ImQ5ZGMxNmQ2LWU3MWUtNGUxNi1hYTEyLWQ1OGY3ZDVmZDE5ZiJ9",
         "https://app.powerbi.com/view?r=eyJrIjoiMGJlMmFlOGItMWE2YS00NWQxLWFiNDMtNDZhNGI2MGVlMTA4IiwidCI6ImQ5ZGMxNmQ2LWU3MWUtNGUxNi1hYTEyLWQ1OGY3ZDVmZDE5ZiJ9",
         "https://app.powerbi.com/view?r=eyJrIjoiZGQ3YmQ2N2ItMDZhNy00OWI4LTkwNGUtNzlmOTkwNjZkMTEwIiwidCI6ImQ5ZGMxNmQ2LWU3MWUtNGUxNi1hYTEyLWQ1OGY3ZDVmZDE5ZiJ9",
-        "https://app.powerbi.com/view?r=eyJrIjoiMjRhNGZjNmYtNTIzNy00MzVmLWEyMTQtNDE3YmM3MGEwODNlIiwidCI6ImQ5ZGMxNmQ2LWU3MWUtNGUxNi1hYTEyLWQ1OGY3ZDVmZDE5ZiJ9"
+        "https://app.powerbi.com/view?r=eyJrIjoiMjRhNGZjNmYtNTIzNy00MzVmLWEyMTQtNDE3YmM3MGEwODNlIiwidCI6ImQ5ZGMxNmQ2LWU3MWUtNGUxNi1hYTEyLWQ1OGY3ZDVmZDE5ZiJ9",
+        "https://app.powerbi.com/view?r=eyJrIjoiMDZiYTdhMTMtNzVlNi00ZDYzLTllZmUtOTM2MDI3ZmNlNDEzIiwidCI6ImQ5ZGMxNmQ2LWU3MWUtNGUxNi1hYTEyLWQ1OGY3ZDVmZDE5ZiJ9",
+        "https://app.powerbi.com/view?r=eyJrIjoiNzc1OWJkM2QtZmQzOS00MTEzLTlkYzUtYWE1NGFkZDFiYTlhIiwidCI6ImQ5ZGMxNmQ2LWU3MWUtNGUxNi1hYTEyLWQ1OGY3ZDVmZDE5ZiJ9", /*IPC*/
 
     ]
     const cards = links.map((element) =>
