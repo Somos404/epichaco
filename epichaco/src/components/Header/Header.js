@@ -7,7 +7,7 @@ const Header = () => {
             <div className="headerContainer fullCenter">
                 <div className="logoHeader">
                 <span>
-                    EPIC CHACO / Estadisticas para Politicas inteligentes
+                    EPIC CHACO / Estadisticas para Politicas inteligentes ///
                 </span>
                 </div>
             </div>
