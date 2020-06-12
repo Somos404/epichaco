@@ -1,0 +1,13 @@
+.headerContainer{
+    padding: 0em;
+    flex-direction: column;
+}
+.logoHeader{
+    margin: 1em;
+}
+
+.fullCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

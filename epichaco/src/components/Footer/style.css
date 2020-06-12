@@ -1,0 +1,28 @@
+/* .footerWrapper{
+    
+} */
+.centerFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stickyFooter {
+  position: fixed;
+  bottom: 0em;
+  height: 4em;
+  width: 100vw;
+  background-color: rgba(243, 239, 239, 0.87);
+}
+.textFooter {
+  font-weight: bold;
+}
+.logoMinisterio{
+    width: 15em;
+    height: 3em;
+    margin: 5em;
+}
+.logoChaco{
+    width: 10em;
+    height: 3em;
+    margin: 5em;
+}

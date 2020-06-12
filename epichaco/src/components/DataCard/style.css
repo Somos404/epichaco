@@ -1,0 +1,22 @@
+.cardContainer {
+  width: 20em;
+  height: 15em;
+  background-color: white;
+  border: black 0.016em solid;
+  margin: 0.5em;
+  border-radius: 0.5em;
+  overflow: hidden; /*todo lo que sobre salga de los hijos lo oculta*/
+}
+.logoDataCard {
+  width: 2em;
+  height: 2em;
+  margin-left: auto;
+}
+.wrapperTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titleCard{
+    padding-left: 0.5em;
+}

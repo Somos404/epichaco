@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: rgba(128, 128, 128, 0.4);
+}
+.wrapperContainer {
+  padding: 1em 4em 6.5em 4em;
+  display: flex;
+  flex-wrap: wrap; /*para no deformar entonces salto abajo*/
+}
