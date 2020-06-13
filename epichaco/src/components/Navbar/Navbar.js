@@ -3,31 +3,31 @@ import "./style.css"
 
 const Navbar = () => {
     return (
-        <navbar className="navbarContainer">
-            <nav>
+        <nav className="navbarContainer">
+            <ul>
                 Monitor
-            </nav>
+            </ul>
             <span>|</span>
-            <nav>
+            <ul>
                 Prodiccion
-            </nav>
+            </ul>
             <span>|</span>
-            <nav>
+            <ul>
                 Industria
-            </nav>
+            </ul>
             <span>|</span>
-            <nav>
+            <ul>
                 Empleo
-            </nav>
+            </ul>
             <span>|</span>
-            <nav>
+            <ul>
                 Comercio
-            </nav>
+            </ul>
             <span>|</span>
-            <nav>
+            <ul>
                 Mas...
-            </nav>
-        </navbar>
+            </ul>
+        </nav>
     )
 }
 
