@@ -17,7 +17,7 @@ const CardContainer = () => {
         "https://app.powerbi.com/view?r=eyJrIjoiNzIzZjNjNDgtNzNmYi00ZTM5LWFlNmItMDQ0M2YxYTgwNzUzIiwidCI6ImQ5ZGMxNmQ2LWU3MWUtNGUxNi1hYTEyLWQ1OGY3ZDVmZDE5ZiJ9",
         "https://app.powerbi.com/view?r=eyJrIjoiNzlmOWVjMjMtZjc4MC00ZDVjLWI1MzItYTgxMzdlZDUzYzc5IiwidCI6ImQ5ZGMxNmQ2LWU3MWUtNGUxNi1hYTEyLWQ1OGY3ZDVmZDE5ZiJ9",
         "https://app.powerbi.com/view?r=eyJrIjoiMDBmMzViNjAtZWNlYi00YWUwLWFmY2ItOWZlODRjYTY4ODFkIiwidCI6ImQ5ZGMxNmQ2LWU3MWUtNGUxNi1hYTEyLWQ1OGY3ZDVmZDE5ZiJ9", /* Linux */
-        "https://app.powerbi.com/view?r=eyJrIjoiZDU3ZDE1OTItMTA0OC00MDIxLWE0ZTMtNjlhMGM3NzVhYzRkIiwidCI6ImQ5ZGMxNmQ2LWU3MWUtNGUxNi1hYTEyLWQ1OGY3ZDVmZDE5ZiJ90",
+        "https://app.powerbi.com/view?r=eyJrIjoiZDU3ZDE1OTItMTA0OC00MDIxLWE0ZTMtNjlhMGM3NzVhYzRkIiwidCI6ImQ5ZGMxNmQ2LWU3MWUtNGUxNi1hYTEyLWQ1OGY3ZDVmZDE5ZiJ9",
         "https://app.powerbi.com/view?r=eyJrIjoiMzBjZWQwYTMtOGU0ZS00ZWU2LTg1NDQtNGRhMDA5ZDgyYTU1IiwidCI6ImQ5ZGMxNmQ2LWU3MWUtNGUxNi1hYTEyLWQ1OGY3ZDVmZDE5ZiJ9",
         "https://app.powerbi.com/view?r=eyJrIjoiMWZiNWYzZmMtNjJlMS00OTQ1LWEwMGEtZGQ4YjJjMDMxMGFiIiwidCI6ImQ5ZGMxNmQ2LWU3MWUtNGUxNi1hYTEyLWQ1OGY3ZDVmZDE5ZiJ9",
         "https://app.powerbi.com/view?r=eyJrIjoiZWQxMjZhNTAtYzQxNy00OWQ4LTk1YzItYWQ0ZGE0NWEyY2VlIiwidCI6ImQ5ZGMxNmQ2LWU3MWUtNGUxNi1hYTEyLWQ1OGY3ZDVmZDE5ZiJ9",
@@ -38,7 +38,7 @@ const CardContainer = () => {
 
     ]
     const cards = links.map((element) =>
-        <DataCard src={element} />
+        <DataCard src={element} key={element}/>
     )
     return (
         <div className="containerCards">
